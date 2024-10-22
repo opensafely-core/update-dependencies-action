@@ -3,6 +3,7 @@ name: Test workflow
 on:
   # manual only
   workflow_dispatch:
+  pull_request:
 
 
 jobs:
